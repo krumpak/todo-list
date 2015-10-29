@@ -1,0 +1,42 @@
+.nav {
+	background-color: #000;
+	color: #fff;
+}
+.logo:link, .logo:visited, .logo:hover, .logo:active {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 8px;
+}
+.v-center {
+    padding: 15px 10px;
+}
+.footer {
+	background-color: #ededed;
+	color: #000;
+}
+#task-container {
+	min-height: 150px;
+}
+#message {
+	min-height: 60px;
+	margin-bottom: 8px;
+}
+.task-list li {
+	margin: 10px 0;
+	list-style-type: none;
+}
+.check-task:link, .check-task:visited, .check-task:hover, .check-task:active, .remove-task:link, .remove-task:visited, .remove-task:hover, .remove-task:active {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+.check-task:hover {
+	color: #46b8da;
+}
+.remove-task:hover {
+	color: #f00;
+}
+.input-group {
+	margin-bottom: 20px;
+}
